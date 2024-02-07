@@ -1,0 +1,18 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sb
+import numpy as np
+
+# load the dataset
+titanic = sb.load_dataset("Titanic")
+titanic.head()
+
+# count the value in "survived"
+titanic["survived"].value_counts()
+
+# plotting survival rates for different columns
+# define the columns that we are intersted in plotting
+
+
+
+
